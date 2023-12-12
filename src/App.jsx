@@ -43,6 +43,9 @@ function App() {
             duration: .7,
             delay: 1 }}/>
         </motion.div>
+        <text className="heroTitle">Dive into Dragon Boat Racing!</text>
+        <text className="heroDesc">Welcome to Dragon Boat Club, where passion meets the water. Join our Dragon Boat racing family and unlock your potential.</text>
+        <button className="heroButton"/>
       </motion.div>
       <motion.div className="aboutContainer" style={{y}}>
             Hi

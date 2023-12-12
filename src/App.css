@@ -15,6 +15,33 @@
   z-index: 1;
 }
 
+.heroTitle {
+  position: absolute;
+  bottom: 27vh;
+  margin-left: calc((100% / 12) * 2);
+  width: calc((100% / 12) * 4);
+
+  color:#F7F7F7;
+  font-weight: bold;
+  font-size: 51px;
+}
+
+.heroDesc {
+  position: absolute;
+  color: #F7F7F7;
+  bottom: 17vh;
+  margin-left: calc((100% / 12) * 2);
+  width: calc((100% / 12) * 5.5);
+
+  font-family: 'OpenSans';
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.heroButton {
+  bottom: 10vh;
+}
+
 
 .splash {
   width: 100%;
